@@ -1,0 +1,100 @@
+{
+  "development_only": true,
+  "official_submission_allowed": false,
+  "partition_parent": "runs/temporal-features-v2/analysis-v2/comparison/results/experiment_manifest.json",
+  "partition_parent_sha256": "0e6a25b8433040d159d41241caac9de9ec8fcf5288317630320fd699d398e65a",
+  "annotation_directory": "data/cascade/data/batch_00001",
+  "feature_directory": "runs/finalist-canonical-2026-10-11-v2/canonical-refit/results/embed-8b/features",
+  "input_hashes": {
+    "data/retrieval/cascade-v1.0/train/queries.jsonl": "0e8410ff61a728534830035f43864fd15b4a349adab97cd96c1e4b4ce8f5bbab",
+    "data/retrieval/cascade-v1.0/train/qrels.jsonl": "f760bf4e50a30e8f76c3a3b98dbe4fb2fa98e2613a98dc170b11edfec7ba37e8",
+    "runs/temporal-features-v2/analysis-v2/comparison/results/experiment_manifest.json": "0e6a25b8433040d159d41241caac9de9ec8fcf5288317630320fd699d398e65a",
+    "configs/research_native_8b_v1.json": "02437a59d7ebfaee61c684310cf8a741f953a771366313ceb153a720f6068078"
+  },
+  "head_seeds": [
+    43,
+    44
+  ],
+  "head_epochs": 4,
+  "head_training": {
+    "rank": 128,
+    "batch_size": 128,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.001,
+    "temperature": 0.05,
+    "anchor_weight": 1
+  },
+  "minimum_rp_gain": 0.001,
+  "submitted_raw_weight": 0.25,
+  "native_recipe": "configs/research_native_8b_v1.json",
+  "model_directory": "artifacts/models/embed-8b",
+  "model_provenance_sha256": "17f613a53acf804a7b587e96c019ced2e21437c8fe40892bb0c146c4829de2da",
+  "cpu_threads": 8,
+  "seed": 0,
+  "held_fold": "all",
+  "blocks": {
+    "pooled": {
+      "kind": "pooled-embedding",
+      "manifest": "runs/finalist-canonical-2026-10-11-v2/canonical-refit/results/embed-8b/features/feature_manifest.json",
+      "vectors": "runs/finalist-canonical-2026-10-11-v2/canonical-refit/results/embed-8b/features/aggregate.npz"
+    },
+    "motion2": {
+      "kind": "motion-series",
+      "path": "runs/perception-followup-v1/ego2-extract/results/motion-series.npz",
+      "bins": 10
+    },
+    "windows": {
+      "kind": "window-vectors",
+      "manifest": "runs/perception-batch-v2/encode-windows/results/window-manifest.json",
+      "vectors": "runs/perception-batch-v2/encode-windows/results/window-vectors.npz"
+    }
+  },
+  "query_instruction": "Retrieve driving videos matching every described event, road user, traffic control, and spatial or temporal relation.",
+  "decode_workers": 6,
+  "frame_directory": "runs/tracks-v2/frames16",
+  "frames": 16,
+  "fusion_weight": 0.5,
+  "top_k": 30,
+  "rerank_weight": 0.5,
+  "pilot_gain": 0.005,
+  "inner_folds": 3,
+  "motionnet_epochs": 40,
+  "plan_path": "configs/entry5/mtv2-all.json",
+  "kind": "scaled-up multi-task Qwen3.8 verifier adapter (V2), all mode",
+  "rank": 32,
+  "alpha": 64,
+  "learning_rate": 0.0001,
+  "max_length": 4096,
+  "score_batch": 16,
+  "vlm_directory": "artifacts/models/qwen3.8-27b",
+  "vlm_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "vlm_repo": "Qwen/Qwen3.8-27B",
+  "vlm_class": "Qwen3_5ForConditionalGeneration",
+  "height": 352,
+  "width": 640,
+  "question_batch": 96,
+  "atom_families": [
+    "agent",
+    "light",
+    "obj",
+    "ego"
+  ],
+  "questions_per_video": 16,
+  "optimizer_steps": 6002,
+  "max_reserved_gib": 138,
+  "max_prefix_logit_drift": 0.5,
+  "test_videos": 650,
+  "a100_slowdown": 2.5,
+  "job_names": {
+    "train": "mtv2-all-train"
+  },
+  "template_kwargs": {
+    "enable_thinking": false
+  },
+  "lora_target": "(?:^|\\.)language_model\\.layers\\.\\d+\\.(?:self_attn\\.(?:q_proj|v_proj)|linear_attn\\.in_proj_qkv)$",
+  "python_environment": ".venv-q38 (transformers 5.18.0, flash-linear-attention 0.5.2)",
+  "atom_questions": 6,
+  "query_questions": 10,
+  "mirror_probability": 0.0,
+  "extra_val_queries": "all"
+}

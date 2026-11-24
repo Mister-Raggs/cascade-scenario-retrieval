@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-10-12T03:51:23.854070+00:00",
+  "model": {
+    "repo_id": "Qwen/Qwen3-VL-Embedding-8B",
+    "revision": "2c4565515e0f265c6511776e7193b22c0968ddc7",
+    "model_card_url": "https://huggingface.co/Qwen/Qwen3-VL-Embedding-8B/resolve/2c4565515e0f265c6511776e7193b22c0968ddc7/README.md",
+    "model_card_sha256": "b8a3ff43064283b7d164df4e7bfb3d82ee8487e6f54d653ba57973d36bfc5f86",
+    "declared_license": "apache-2.0",
+    "license_or_notice_files_in_revision": []
+  },
+  "helper": {
+    "local_path": "vendor/qwen3-vl-embedding/qwen3_vl_embedding.py",
+    "local_sha256": "8ffa74a1a6bb759610c57865ea416fd4daf9936cb787520e1112a3e1d547f36a",
+    "source_repo_id": "Qwen/Qwen3-VL-Embedding-2B",
+    "source_revision": "9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda",
+    "source_url": "https://huggingface.co/Qwen/Qwen3-VL-Embedding-2B/resolve/9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda/scripts/qwen3_vl_embedding.py",
+    "source_sha256": "8ffa74a1a6bb759610c57865ea416fd4daf9936cb787520e1112a3e1d547f36a",
+    "local_matches_source_bytes": true,
+    "source_model_card_url": "https://huggingface.co/Qwen/Qwen3-VL-Embedding-2B/resolve/9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda/README.md",
+    "source_model_card_sha256": "0c01437645b55e91c0145f7f3d9d414d0091cefe53c5f17938949f4c4baad0f2",
+    "source_declared_license": "apache-2.0",
+    "license_or_notice_files_in_source_revision": [],
+    "official_code_url": "https://raw.githubusercontent.com/QwenLM/Qwen3-VL-Embedding/f4d8d40802a20a9263ab3f99c80b1b2f49852101/src/models/qwen3_vl_embedding.py",
+    "official_code_revision": "f4d8d40802a20a9263ab3f99c80b1b2f49852101",
+    "official_code_sha256": "6866833c45b286b8c9077583ce7c082702d38bc3bc7310c5826eae8a65836247",
+    "official_code_byte_comparison": "official code equals copied HF helper plus one terminal LF; all other bytes equal",
+    "file_header_license_notice_present": false
+  },
+  "license": {
+    "local_path": "third_party_licenses/Qwen3-VL-Embedding-LICENSE.txt",
+    "source_url": "https://raw.githubusercontent.com/QwenLM/Qwen3-VL-Embedding/f4d8d40802a20a9263ab3f99c80b1b2f49852101/LICENSE",
+    "source_revision": "f4d8d40802a20a9263ab3f99c80b1b2f49852101",
+    "sha256": "f08c07d73a60444803f8902b00f7b14c839647a48cc07fba59b3c1bda656ec3c",
+    "unmodified_source_bytes": true,
+    "spdx_identifier": "Apache-2.0",
+    "upstream_copyright_line": "Copyright [2026] [Tongyi Lab, Alibaba Group]",
+    "official_repo_current_revision_checked": "393e2978d27852b0d0230d6994f37f9c15bed73c",
+    "current_license_matches_historical_bytes": true
+  },
+  "limits": [
+    "No HF model weights were downloaded or individually hashed by this license check. Parent package manifest must verify those bytes separately.",
+    "Model card declaration and official repository license establish component provenance; they do not establish challenge eligibility or sponsor permission.",
+    "Pinned HF helper has no per-file copyright/license header and differs from the official historical code only by its terminal newline. Repository license linkage is directly evidenced, while applying a repository-wide license to a headerless file is the ordinary repository-scope interpretation.",
+    "No standalone NOTICE file was found in either pinned HF revision or the official historical GitHub tree."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "qwen3-text": {
+    "model_id": "Qwen/Qwen3-Embedding-0.6B",
+    "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+    "license": "apache-2.0",
+    "local_path": "artifacts/models/qwen3-text"
+  },
+  "siglip2": {
+    "model_id": "google/siglip2-base-patch16-224",
+    "revision": "75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2",
+    "license": "apache-2.0",
+    "local_path": "artifacts/models/siglip2"
+  },
+  "qwen3-description": {
+    "model_id": "Qwen/Qwen3-VL-4B-Instruct",
+    "revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "license": "apache-2.0",
+    "local_path": "artifacts/models/qwen3-description"
+  },
+  "qwen3-video": {
+    "model_id": "Qwen/Qwen3-VL-Embedding-2B",
+    "revision": "9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda",
+    "license": "apache-2.0",
+    "local_path": "artifacts/models/qwen3-video"
+  },
+  "rerank-2b": {
+    "model_id": "Qwen/Qwen3-VL-Reranker-2B",
+    "revision": "4bd860ac4f15ad1897a214615cccc700f8f71818",
+    "license": "apache-2.0",
+    "local_path": "artifacts/models/rerank-2b"
+  },
+  "embed-8b": {
+    "model_id": "Qwen/Qwen3-VL-Embedding-8B",
+    "revision": "2c4565515e0f265c6511776e7193b22c0968ddc7",
+    "license": "apache-2.0",
+    "local_path": "artifacts/models/embed-8b"
+  },
+  "rerank-8b": {
+    "model_id": "Qwen/Qwen3-VL-Reranker-8B",
+    "revision": "b212dc8c91a8164aef1ea2de9c1a867611e75c04",
+    "license": "apache-2.0",
+    "local_path": "artifacts/models/rerank-8b"
+  }
+}

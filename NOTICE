@@ -1,0 +1,9 @@
+AV Causal Scenario Retrieval local baseline
+Copyright 2026 AV Causal Scenario Retrieval project contributors.
+
+Original baseline code in baseline/, scripts/, and tests/ is licensed under
+the Apache License, Version 2.0. See LICENSE.
+
+Third-party software, model weights, and supplied challenge documents retain
+their respective licenses. The project license does not relicense datasets,
+CASCADE annotations, or the user-supplied challenge materials.

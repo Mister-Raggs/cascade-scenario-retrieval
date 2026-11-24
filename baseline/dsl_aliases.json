@@ -1,0 +1,334 @@
+{
+ "action_type": {
+  "abort": [
+   "fst:ManeuverAbort"
+  ],
+  "change_lane": [
+   "oxd:ChangeLane"
+  ],
+  "change_lane_left": [
+   "oxd:ChangeLane (left)"
+  ],
+  "change_lane_right": [
+   "oxd:ChangeLane (right)"
+  ],
+  "creep": [
+   "fst:Creep"
+  ],
+  "decel": [
+   "oxd:Decelerate"
+  ],
+  "drive": [
+   "fst:DrivingInLane"
+  ],
+  "enter": [
+   "fst:Enter"
+  ],
+  "follow": [
+   "oxd:FollowRoadUser"
+  ],
+  "jaywalk_action": [
+   "Jaywalk"
+  ],
+  "not_move": [
+   "oxd:NotMove"
+  ],
+  "nudge": [
+   "fst:Nudge"
+  ],
+  "nudge_in": [
+   "fst:Nudge (in lane)"
+  ],
+  "nudge_out": [
+   "fst:Nudge (out of lane)"
+  ],
+  "other": [
+   "Other"
+  ],
+  "overtake": [
+   "oxd:Overtake"
+  ],
+  "park": [
+   "fst:Park"
+  ],
+  "reverse": [
+   "fst:Reverse"
+  ],
+  "run": [
+   "oxd:Run"
+  ],
+  "stand": [
+   "oxd:Stand"
+  ],
+  "stop": [
+   "oxd:Stop"
+  ],
+  "stop_yield_decel": [
+   "fst:Yield",
+   "oxd:Decelerate",
+   "oxd:Stop"
+  ],
+  "turn": [
+   "fst:MakeAUTurn",
+   "oxd:MakeALeftTurn",
+   "oxd:MakeARightTurn"
+  ],
+  "turn_left": [
+   "oxd:MakeALeftTurn"
+  ],
+  "turn_right": [
+   "oxd:MakeARightTurn"
+  ],
+  "uturn": [
+   "fst:MakeAUTurn"
+  ],
+  "walk": [
+   "oxd:Walk"
+  ],
+  "yield": [
+   "fst:Yield"
+  ]
+ },
+ "agent_type": {
+  "animal": [
+   "oxd:Animal"
+  ],
+  "bicycle": [
+   "oxd:Bicycle"
+  ],
+  "bus": [
+   "PublicBus"
+  ],
+  "car": [
+   "oxd:Car"
+  ],
+  "cyclist": [
+   "fst:Scooter",
+   "oxd:Bicycle"
+  ],
+  "emergency": [
+   "oxd:EmergencyVehicle"
+  ],
+  "generic_vehicle": [
+   "Vehicle"
+  ],
+  "motorcycle": [
+   "oxd:Motorcycle"
+  ],
+  "officer": [
+   "Pedestrian (Officer)"
+  ],
+  "other": [
+   "Other"
+  ],
+  "ped": [
+   "Pedestrian",
+   "Pedestrian (Adult)",
+   "Pedestrian (Kid/Teen)",
+   "Pedestrian (Officer)",
+   "Pedestrian (Other)",
+   "Pedestrian (Personnel)",
+   "Pedestrian (Stroller)",
+   "Pedestrian (oxd:Wheelchair)"
+  ],
+  "ped_adult": [
+   "Pedestrian (Adult)"
+  ],
+  "ped_kid": [
+   "Pedestrian (Kid/Teen)"
+  ],
+  "ped_officer": [
+   "Pedestrian (Officer)"
+  ],
+  "ped_other": [
+   "Pedestrian",
+   "Pedestrian (Other)"
+  ],
+  "ped_personnel": [
+   "Pedestrian (Personnel)"
+  ],
+  "ped_stroller": [
+   "Pedestrian (Stroller)"
+  ],
+  "ped_wheelchair": [
+   "Pedestrian (oxd:Wheelchair)"
+  ],
+  "scooter": [
+   "fst:Scooter"
+  ],
+  "truck": [
+   "Heavy-duty vehicle",
+   "oxd:Truck"
+  ],
+  "vehicle": [
+   "Heavy-duty vehicle",
+   "PublicBus",
+   "Vehicle",
+   "oxd:Car",
+   "oxd:EmergencyVehicle",
+   "oxd:Motorcycle",
+   "oxd:Truck"
+  ],
+  "vru": [
+   "Pedestrian",
+   "Pedestrian (Adult)",
+   "Pedestrian (Kid/Teen)",
+   "Pedestrian (Officer)",
+   "Pedestrian (Other)",
+   "Pedestrian (Personnel)",
+   "Pedestrian (Stroller)",
+   "Pedestrian (oxd:Wheelchair)",
+   "fst:Scooter",
+   "oxd:Bicycle"
+  ]
+ },
+ "light_color": {
+  "green": [
+   "Green"
+  ],
+  "other": [
+   "Other"
+  ],
+  "red": [
+   "Red"
+  ],
+  "yellow": [
+   "Yellow"
+  ]
+ },
+ "light_shape": {
+  "arrow_down": [
+   "Arrow_Down"
+  ],
+  "arrow_left": [
+   "Arrow_Left"
+  ],
+  "arrow_right": [
+   "Arrow_Right"
+  ],
+  "arrow_up": [
+   "Arrow_Up"
+  ],
+  "other": [
+   "Other"
+  ],
+  "round": [
+   "Round"
+  ]
+ },
+ "light_state": {
+  "fixed": [
+   "Fixed"
+  ],
+  "flashing": [
+   "Flashing"
+  ],
+  "off": [
+   "OFF"
+  ]
+ },
+ "obj_type": {
+  "adjacent_lanes_ahead": [
+   "Adjacent lanes ahead"
+  ],
+  "ball": [
+   "Ball"
+  ],
+  "barrier": [
+   "Barrier",
+   "Bollard",
+   "oxd:Roadblocks",
+   "oxd:TrafficCone"
+  ],
+  "bollard": [
+   "Bollard"
+  ],
+  "boom_gate": [
+   "Boom gate"
+  ],
+  "cone": [
+   "oxd:TrafficCone"
+  ],
+  "debris": [
+   "Dirt",
+   "Other oxd:Debris",
+   "Trash"
+  ],
+  "dirt": [
+   "Dirt"
+  ],
+  "do_not_enter": [
+   "Do not enter"
+  ],
+  "fallen": [
+   "Ball",
+   "Other fst:FallenObject",
+   "Toy"
+  ],
+  "fallen_object": [
+   "Other fst:FallenObject"
+  ],
+  "garage": [
+   "Garage"
+  ],
+  "merge_ahead": [
+   "Merge ahead"
+  ],
+  "not_identifiable": [
+   "Not identifiable"
+  ],
+  "other": [
+   "Other"
+  ],
+  "other_debris": [
+   "Other oxd:Debris"
+  ],
+  "portable_display": [
+   "PortableDisplay"
+  ],
+  "portable_indicator": [
+   "Other Small Portable Traffic Indicator"
+  ],
+  "rail_crossing_obj": [
+   "oxd:RailCrossing"
+  ],
+  "roadblock": [
+   "oxd:Roadblocks"
+  ],
+  "sign": [
+   "Adjacent lanes ahead",
+   "Do not enter",
+   "Merge ahead",
+   "Other oxd:TrafficSign",
+   "fst:SpeedLimitSign",
+   "fst:StopSign",
+   "fst:YieldSign",
+   "oxd:WarningSign"
+  ],
+  "speed_limit_sign": [
+   "fst:SpeedLimitSign"
+  ],
+  "stop_sign": [
+   "fst:StopSign"
+  ],
+  "toll_plaza": [
+   "oxd:TollPlaza"
+  ],
+  "toy": [
+   "Toy"
+  ],
+  "traffic_sign": [
+   "Other oxd:TrafficSign"
+  ],
+  "trash": [
+   "Trash"
+  ],
+  "warning_sign": [
+   "oxd:WarningSign"
+  ],
+  "yield_sign": [
+   "fst:YieldSign"
+  ]
+ },
+ "source": "cascade-devkit query constants (Apache-2.0), exported 2026-10-14"
+}
