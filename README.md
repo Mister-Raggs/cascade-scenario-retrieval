@@ -6,8 +6,7 @@ Models in Physical AI workshop). Given a plain-English description such as
 > A signaling bus turns left while an adult pedestrian walks.
 
 the system ranks dashcam clips so that the ones matching every part of it (who, what, which qualifier, and in which
-order) come first. The final entry scored **0.434 R-Precision** on the hidden test set, first on the public leaderboard
-when it closed (final results pending), up from 0.243 for the first entry and 0.264 for the organizers' baseline.
+order) come first. The final entry scored **0.434 R-Precision** on the hidden test set, up from 0.243 for the first entry and 0.264 for the organizers' baseline.
 
 ## How it works
 

@@ -16,7 +16,7 @@ populations differ, so numbers are comparable only within a table.
 | 5 | Property atoms, 32-frame answers, fine-tuned verifier on the top 50 | **0.434** |
 
 Entry 5 by tier (Easy / Medium / Hard): 0.562 / 0.439 / 0.309, against 0.551 / 0.392 / 0.261 for entry 4. MAP 0.447,
-Recall@10 0.394. First on the public leaderboard when it closed; final results pending.
+Recall@10 0.394.
 
 ## How changes were judged
 
